@@ -18,7 +18,7 @@ void setup() {
 
 void loop() { Serial.println("per iniziare a giocare scrivi via");
 part = Serial.read();
-if (part == "via"){ini 0 if (cont1 == 0){ 
+if (part == "via"){if (cont1 == 0){ 
   
   
   
