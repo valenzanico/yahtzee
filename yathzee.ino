@@ -10,7 +10,7 @@ int a5 = 0;
 int a6 = 0;
 char par = "";
 int cont = 0;
-
+int b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11;
 void setup() {
   Serial.begin(9600);
 
