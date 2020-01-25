@@ -73,6 +73,5 @@ if (fine == "11"){b11++;println(50) ;}
 Serial.println();
 }                                                                              
 
-if( a >= 1 and <= 3 ){}
-}
 
+} 
