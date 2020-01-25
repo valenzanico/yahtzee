@@ -50,7 +50,7 @@ if (a1 == 1 and a2 == 1 and a3 == 1 and a4 == 1 and a5 == 1) {Serial.println("ha
 if (a2 == 1 and a3 == 1 and a4 == 1 and a5 == 1 and a6 == 1) {Serial.println("hai fatto una grande scala comb num 8, 40 punti")}// grande scala + 40 punti
   
 if (a1 == 3 or a2 == 3 or a3 == 3 or a4 == 3 or a5 == 3 or a6 == 3){Serial.println(" hai fatto un tris comb num 9; il punteggio è: ");Serial.print(somdad);}//tris
-                                 
+if (a1 == 3 or a2 == 3 or a3 == 3 or a4 == 3 or a5 == 3 or a6 == 3 and a1 == 2 or a1 == 2 or a1 == 2 or a1 == 2 or a1 == 2 or                            
 if (a1 == 4 or a2 == 4 or a3 == 4 or a4 == 4 or a5 == 4 or a6 == 4){Serial.println(" hai fatto una serie di 4 comb num 10; il punteggio è: ");Serial.print(somdad);}
                                  
 if (a1 == 5 or a2 == 5 or a3 == 5 or a4 == 5 or a5 == 5 or a6 == 5){Serial.println(" hai fatto uno yahtzee comb num 11; il punteggio è: 50");}
