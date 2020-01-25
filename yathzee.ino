@@ -50,7 +50,7 @@ if (a1 == 1 and a2 == 1 and a3 == 1 and a4 == 1 and a5 == 1) {Serial.println("ha
 if (a2 == 1 and a3 == 1 and a4 == 1 and a5 == 1 and a6 == 1) {Serial.println("hai fatto una grande scala comb num 8, 40 punti")}// grande scala + 40 punti
   
 if (a1 == 3 or a2 == 3 or a3 == 3 or a4 == 3 or a5 == 3 or a6 == 3){Serial.println(" hai fatto un tris comb num 9; il punteggio è: ");Serial.print(somdad);}//tris
-if (a1 == 3 or a2 == 3 or a3 == 3 or a4 == 3 or a5 == 3 or a6 == 3 and a1 == 2 or a2 == 2 or a3 == 2 or a4 == 2 or a5 == 2 or a6 == 2) {}                          
+if (a1 == 3 or a2 == 3 or a3 == 3 or a4 == 3 or a5 == 3 or a6 == 3 and a1 == 2 or a2 == 2 or a3 == 2 or a4 == 2 or a5 == 2 or a6 == 2) {Serial.println("hai fatto poker, 40 punti combinazione n 12");}                          
 if (a1 == 4 or a2 == 4 or a3 == 4 or a4 == 4 or a5 == 4 or a6 == 4){Serial.println(" hai fatto una serie di 4 comb num 10; il punteggio è: ");Serial.print(somdad);}
                                  
 if (a1 == 5 or a2 == 5 or a3 == 5 or a4 == 5 or a5 == 5 or a6 == 5){Serial.println(" hai fatto uno yahtzee comb num 11; il punteggio è: 50");}
@@ -63,11 +63,12 @@ if (fine == "3") {b3 ++; println(" hai fatto") ;print(comb3);}
 if (fine == "4") {b4 ++; println(" hai fatto") ;print(comb4);} 
 if (fine == "5") {b5 ++; println(" hai fatto") ;print(comb5);} 
 if (fine == "6") {b6 ++; println(" hai fatto") ;print(comb6);} 
-if (fine == "7") {b7++;println("30")} 
-if (fine == "8"){b8++;println("40") ;} 
-if (fine == "9"){b9++;println(somdad) ;} 
-if (fine == "10") {b10++;println(somdad) ;} 
-if (fine == "11"){b11++;println(50) ;} 
+if (fine == "7") {b7++;println("30");} 
+if (fine == "8"){b8++;println("40");} 
+if (fine == "9"){b9++;println(somdad);} 
+if (fine == "10") {b10++;println(somdad);} 
+if (fine == "11"){b11++;println("50");}
+if (fine == "12"){b12++;println("40"); 
  
 
 Serial.println();
