@@ -57,17 +57,17 @@ if (a1 == 5 or a2 == 5 or a3 == 5 or a4 == 5 or a5 == 5 or a6 == 5){Serial.print
  Serial.println("per ritirare scrivi tira, se voui invece sceglire una combinazione scrivi il numero") ;fine=Serial.read(); 
 if (fine == "tira" ){Serial.println("ritiro")
 } 
-if (fine == "1") 
-if (fine == "2") 
-if (fine == "3") 
-if (fine == "4") 
-if (fine == "5") 
-if (fine == "6") 
-if (fine == "7") 
-if (fine == "8") 
-if (fine == "9") 
-if (fine == "10") 
-if (fine == "11"){
+if (fine == "1"){b1 ++; println(" hai fatto") ;print(comb1);} 
+if (fine == "2") {b2 ++; println(" hai fatto") ;print(comb2);} 
+if (fine == "3") {b3 ++; println(" hai fatto") ;print(comb3);} 
+if (fine == "4") {b4 ++; println(" hai fatto") ;print(comb4);} 
+if (fine == "5") {b5 ++; println(" hai fatto") ;print(comb5);} 
+if (fine == "6") {b6 ++; println(" hai fatto") ;print(comb6);} 
+if (fine == "7") {b7++;println(30)} 
+if (fine == "8"){b8++;} 
+if (fine == "9"){} 
+if (fine == "10") {} 
+if (fine == "11"){} 
  
 
 Serial.println();
