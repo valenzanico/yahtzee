@@ -63,11 +63,11 @@ if (fine == "3") {b3 ++; println(" hai fatto") ;print(comb3);}
 if (fine == "4") {b4 ++; println(" hai fatto") ;print(comb4);} 
 if (fine == "5") {b5 ++; println(" hai fatto") ;print(comb5);} 
 if (fine == "6") {b6 ++; println(" hai fatto") ;print(comb6);} 
-if (fine == "7") {b7++;println(30)} 
-if (fine == "8"){b8++;} 
-if (fine == "9"){} 
-if (fine == "10") {} 
-if (fine == "11"){} 
+if (fine == "7") {b7++;println("30")} 
+if (fine == "8"){b8++;println("40") ;} 
+if (fine == "9"){b9++;println(somdad) ;} 
+if (fine == "10") {b10++;println(somdad) ;} 
+if (fine == "11"){b11++;println(50) ;} 
  
 
 Serial.println();
