@@ -54,7 +54,7 @@ if (a1 == 3 or a2 == 3 or a3 == 3 or a4 == 3 or a5 == 3 or a6 == 3){Serial.print
 if (a1 == 4 or a2 == 4 or a3 == 4 or a4 == 4 or a5 == 4 or a6 == 4){Serial.println(" hai fatto una serie di 4 comb num 10; il punteggio è: ");Serial.print(somdad);}
                                  
 if (a1 == 5 or a2 == 5 or a3 == 5 or a4 == 5 or a5 == 5 or a6 == 5){Serial.println(" hai fatto uno yahtzee comb num 11; il punteggio è: 50");}
- Serial.println("per ritirare scrivi tira, se voui invece sceglire una combinazione scrivi il numero") ;fine=Serial.read(); 
+ Serial.println("per ritirare scrivi tira, se voui invece sceglire una combinazione scrivi il numero") ;delay(6500);fine=Serial.read(); 
 if (fine == "tira" ){Serial.println("ritiro")
 } 
 if (fine == "1"){b1 ++; println(" hai fatto") ;print(comb1);} 
